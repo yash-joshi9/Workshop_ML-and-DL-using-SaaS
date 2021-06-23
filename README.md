@@ -2,7 +2,7 @@
 
 #### Workshop Title:
 Machine Learning and Deep Learning using Software-as-a-Service (via GoogleTM Colab)
----
+-----------------------------------------------------------------------------------
 
 
 #### Workshop Abstract:
