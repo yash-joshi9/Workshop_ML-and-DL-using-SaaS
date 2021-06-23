@@ -1,9 +1,4 @@
-# Workshop_ML-and-DL-using-SaaS
-
-
-### Workshop Title:
---------------------
-Machine Learning and Deep Learning using Software-as-a-Service (via GoogleTM Colab)
+## Workshop on Machine Learning and Deep Learning using Software-as-a-Service (via GoogleTM Colab)
 
 
 ### Workshop Abstract:
