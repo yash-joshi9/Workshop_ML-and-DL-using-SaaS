@@ -1,0 +1,13 @@
+## Text cells in Google Colab support **Markdown** and **LaTex** syntax as well
+---
+
+**Linear Regression:** $ y = mx + c $ \\
+**Logistic Regression:** $ \dfrac{1}{1 + e^{-x}} \equiv \dfrac{e^{x}}{e^{x} + 1} $ \\
+
+
+
+# This is an inline comment within a code cell
+
+'''
+This is a multi-line comment within a code cell
+'''
