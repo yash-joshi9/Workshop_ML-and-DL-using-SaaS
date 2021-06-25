@@ -12,5 +12,33 @@
 This is a multi-line comment within a code cell
 '''
 
+
 # Free MySQL Database Hosting
 https://www.freesqldatabase.com/register/
+
+--
+-- Table structure for table `continents`
+--
+
+DROP TABLE IF EXISTS `continents`;
+CREATE TABLE IF NOT EXISTS `continents` (
+  `id` int(10) unsigned NOT NULL,
+  `uid` bigint(20) unsigned NOT NULL,
+  `c0` tinytext NOT NULL,
+  `flag` int(1) unsigned NOT NULL DEFAULT '1',
+  `authorizer` varchar(25) NOT NULL,
+  `effdate` datetime NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `continents`
+--
+
+INSERT INTO `continents` (`id`, `uid`, `c0`, `flag`, `authorizer`, `effdate`) VALUES
+(1, 1398491170, 'Asia', 1, 'master', '2021-06-26 07:48:34'),
+(2, 1398491180, 'Africa', 1, 'master', '2021-06-26 07:48:34'),
+(3, 1398491190, 'North America', 1, 'master', '2021-06-26 07:48:34'),
+(4, 1398491200, 'South America', 1, 'master', '2021-06-26 07:48:34'),
+(5, 1398491210, 'Europe', 1, 'master', '2021-06-26 07:48:34'),
+(6, 1398491220, 'Australia', 1, 'master', '2021-06-26 07:48:34'),
+(7, 1398491230, 'Antarctica', 1, 'master', '2021-06-26 07:48:34');
